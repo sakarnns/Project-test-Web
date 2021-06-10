@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 944px;
+    margin: 0 auto;
+    line-height: 115px;
+    border: 1px solid red;
+}
+
+header{
+    height: 724px;
+    background: url(/img/Rectangle_1.svg) no-repeat;
+    background-position: center;
+    object-fit: cover;
+    
+}
+
+.textcenter{
+    text-align: left;
+    padding-top: 317px;
+    font-family: 'Roboto', sans-serif;
+    /*border: 1px solid red;*/
+}
+.textcenter h1{
+    font-size: 75px;
+    color: #F2F2F2;
+}
+
+input[type=searchbar1],
+div.button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    height: 78px;
+    width: 624px;
+    left: 408px;
+    right: 410px;
+    top: 700px;
+    position: absolute;   
+}
+
+input[type=searchbar1] {
+    margin: 0;
+    padding: 0 auto;
+    background-color: #E0E0E0;
+    border: 0;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.header-title1 {
+    margin-top: 500px;
+    width: 250px;
+    border: 1px solid red;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+.header-title1 h1 {
+    font-size: 20px;
+}
+
+.header-info1 p {
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Roboto Thin 100', sans-serif;
+    
+    
+}
+
+.header-btn1 {
+    margin-top: 0px;
+}
+
+.viewagents {
+    background: #333333 ;
+    color: #F2F2F2;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+    flex-direction: row;
+    
+}
+
