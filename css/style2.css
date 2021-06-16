@@ -17,7 +17,7 @@ header{
     background-color: #828282;
     height: 724px;
     width: 1440px;
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
     mix-blend-mode: multiply;
    
 }
@@ -138,6 +138,77 @@ header{
     margin-top: 140px;
     margin-left: 250px;
 }
-.header-st nd{
+.header-st-nd{
     font-size: 40px;
 }
+
+.img1-nd {
+    margin-top: 105px;
+    margin-left: 400px;
+}
+.img1-nd-header {
+    margin-top: 36px;
+}
+.img1-nd-header h1{
+    font-size: 20px;
+}
+.img1-nd-info p{
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Roboto Thin 100', sans-serif;
+    
+}
+.img1-nd-info {
+    margin-left: -960px;
+    margin-top: 25px;
+    
+}
+
+
+.img2-nd {
+    margin-top: -280px;
+    margin-left: 700px;
+}
+.img2-nd-header {
+    margin-top: 36px;
+    margin-left: -25px;
+}
+.img2-nd-header h1{
+    font-size: 20px;
+}
+.img2-nd-info p{
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Roboto Thin 100', sans-serif;
+    
+}
+.img2-nd-info {
+    margin-left: -650px;
+    margin-top: 25px;   
+}
+
+
+.img3-nd {
+    margin-top: -280px;
+    margin-left: 1000px;
+
+}
+.img3-nd-header {
+    margin-top: 36px;
+    margin-left: -5px;
+}
+.img3-nd-header h1{
+    font-size: 20px;
+}
+.img3-nd-info p{
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Roboto Thin 100', sans-serif;
+    
+}
+.img3-nd-info {
+    margin-left: -360px;
+    margin-top: 25px;   
+}
+/*-------section3---------*/
+
