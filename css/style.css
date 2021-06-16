@@ -9,8 +9,7 @@
 .container{
     max-width: 944px;
     margin: 0 auto;
-    line-height: 115px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 header{
@@ -19,6 +18,15 @@ header{
     background-position: center;
     object-fit: cover;
     
+}
+footer{
+    height: 618px;
+    background: url(/img/Rectanglefooter.svg) no-repeat;
+    background-position: center;
+    object-fit: cover
+}
+.footer{
+    margin-top: 1635px;
 }
 
 .textcenter{
@@ -32,9 +40,8 @@ header{
     color: #F2F2F2;
 }
 
-input[type=searchbar1],
-div.button {
-    font-family: 'Roboto', sans-serif;
+input[type=searchbar]{
+    font-family: 'Roboto Thin 100', sans-serif;
     font-size: 50px;
     height: 78px;
     width: 624px;
@@ -44,21 +51,30 @@ div.button {
     position: absolute;   
 }
 
-input[type=searchbar1] {
+input[type=searchbar]{
     margin: 0;
-    padding: 0 auto;
     background-color: #E0E0E0;
     border: 0;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
+.undersearchbar1 {
+    width: 944px;
+    height: 400px;
+    /*border: 1px solid red;*/
+    
+}
+/*-------------------\/BOX1\/-----------------------------*/
 .header-title1 {
-    margin-top: 500px;
-    width: 250px;
-    border: 1px solid red;
+    margin-top: 210px;
+    width: 251px;
+    height: 202px;
+    /*border: 1px solid red;*/
     text-align: center;
-    margin-left: 10px;
+    margin-left: 24px;
     
 }
 .header-title1 h1 {
@@ -68,15 +84,14 @@ input[type=searchbar1] {
 .header-info1 p {
     font-size: 18px;
     margin-top: 30px;
-    line-height: 30px;
+    line-height: 24px;
     text-align: center;
-    font-family: 'Roboto Thin 100', sans-serif;
-    
-    
+    font-family: 'Roboto Thin 100', sans-serif;  
 }
 
 .header-btn1 {
-    margin-top: 0px;
+    margin-top: 20px;
+    
 }
 
 .viewagents {
@@ -85,6 +100,736 @@ input[type=searchbar1] {
     text-decoration: none;
     padding: .5rem 1.5rem;
     flex-direction: row;
+    font-family: 'Roboto Thin 100', sans-serif;
     
+}
+/*--------------------\/BOX2\/----------------------------*/
+.header-title2 {
+    margin-top: -202px;
+    width: 251px;
+    height: 202px;
+    /*border: 1px solid red;*/
+    text-align: center;
+    margin-left: 350px;
+    
+    
+}
+.header-title2 h1 {
+    font-size: 20px;
+}
+
+.header-info2 p {
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 24px;
+    text-align: center;
+    font-family: 'Roboto Thin 100', sans-serif;    
+}
+.header-btn2 {
+    margin-top: 20px;    
+}
+.viewhomes {
+    background: #333333 ;
+    color: #F2F2F2;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+    flex-direction: row;
+    font-family: 'Roboto Thin 100', sans-serif;   
+}
+/*------------------\/BOX3\/------------------------------*/
+.header-title3 {
+    margin-top: -202px;
+    width: 251px;
+    height: 202px;
+    /*border: 1px solid red;*/
+    text-align: center;
+    margin-left: 670px;   
+}
+.header-title3 h1 {
+    font-size: 20px;
+}
+.header-info3 p {
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 24px;
+    text-align: center;
+    font-family: 'Roboto Thin 100', sans-serif;    
+}
+.header-btn3 {
+    margin-top: 20px;   
+}
+.connectnow {
+    background: #333333 ;
+    color: #F2F2F2;
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+    flex-direction: row;
+    font-family: 'Roboto Thin 100', sans-serif;  
+}
+.underbar-sec {
+    width: 944px;
+    height: 760px;
+    /*border: 1px solid red;*/   
+}
+/*-----------------BOXWho we are-----------*/
+.sec-header h1{
+    font-size: 40px;
+    line-height: 42px;
+    /*border: 1px solid red;*/
+    width: 544px;
+    height: 140px;
+    margin-left: 0px;
+}
+.sec-header-info p{
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: -80px;
+    font-family: 'Roboto Thin 100', sans-serif;
+}
+.sec-img1 {
+    margin-top: 49px;
+}
+.sec-img2 {
+    margin-top: -360px;
+    margin-left: 241px;
+}
+.sec-img3 {
+    margin-top: -440px;
+    margin-left: 480px;
+}
+.sec-img4 {
+    margin-top: -360px;
+    margin-left: 719px;
+}
+/*------------Experirance your home buying or selling journey with us----------------*/
+
+.underbar-nd {
+    width: 944px;
+    height: 825px;
+    /*border: 1px solid red;*/
+}
+.nd-header h1{
+    font-size: 40px;
+    line-height: 42px;
+    /*border: 1px solid red;*/
+    width: 813px;
+    height: 84px;
+    margin-left: 0px;
+}
+
+.nd-header-info1 p{
+    font-size: 18px;
+    line-height: 24px;
+    width: 338px;
+    height: 144px;
+    /*border: 1px solid red;*/
+    margin-top: 107px;
+    margin-left: 0px;
+    font-family: 'Roboto Thin 100', sans-serif;
+}
+.nd-header-info2 p{
+    font-size: 18px;
+    line-height: 24px;
+    width: 338px;
+    height: 144px;
+    /*border: 1px solid red;*/
+    margin-top: 250px;
+    margin-left: 605px;
+    font-family: 'Roboto Thin 100', sans-serif;
+}
+.nd-img1 {
+    margin-top: -605px;
+    margin-left: 398px;
+}
+.nd-img2 {
+    margin-top: 87px;
+    margin-left: 0px;
+}
+/*-------------We are the leader in the industry---------------*/
+.underbar-rd {
+    width: 944px;
+    height: 660px;
+    /*border: 1px solid red;*/
+}
+
+.rd-header h1{
+    font-size: 40px;
+    line-height: 42px;
+    /*border: 1px solid red;*/
+    width: 629px;
+    height: 157px;
+    margin-top: 117px;
+    margin-left: 0px;
+}
+.rd-header-info1 p{
+    font-size: 18px;
+    line-height: 24px;
+    width: 560px;
+    height: 78px;
+    /*border: 1px solid red;*/
+    margin-top: -86px;
+    margin-left: 0px;
+    font-family: 'Roboto Thin 100', sans-serif;
+}
+.rd-img1 {
+    margin-top: 65px;
+    margin-left: 10px;
+    
+}
+.rd-img1 p{
+    margin-left: 0px;
+    font-family: 'Roboto Thin 100', sans-serif;
+    
+}
+
+.rd-img2 {
+    margin-top: -170px;
+    margin-left: 328px;
+    
+}
+.rd-img2 p{
+    margin-left: 21px;
+    font-family: 'Roboto Thin 100', sans-serif;
+}
+
+.rd-img3 {
+    margin-top: -172px;
+    margin-left: 640px;
+    
+}
+.rd-img3 p{
+    margin-left: 64px;
+    font-family: 'Roboto Thin 100', sans-serif;
+}
+/*-------------Featured listings---------------*/
+.underbar-4th{
+    width: 944px;
+    height: 1755px;
+    margin-top: 260px;
+    margin-left: -1px;
+}
+.fourth-header{
+    font-size: 40px;
+    margin-top: -100px;
+}
+.fourthth-header-btn1{
+    padding: 10px 15px;
+    border: 1px solid#333333;
+    width: 181px;
+    margin-top: -170px;
+    margin-left: 762px;
+}
+.fourthth-header-btn1 a{
+    font-size: 18px;
+    color: #333333;
+    text-decoration: none;
+    font-family: 'Roboto Thin 100', sans-serif;
+    
+}
+.fourth-chevron-down{
+    margin-top: -40px;
+    margin-left: 895px;
+}
+.fourth-img1{
+    margin-top: 50px;
+}
+.fourth-img2{
+    margin-top: -300px;
+    margin-left: 320px;
+}
+.fourth-img3{
+    margin-top: -300px;
+    margin-left: 636px;
+}
+/*------------------------*/
+.fourth-header-img1 {
+    display: flex;
+    margin-top: -106px;   
+}
+.fourth-header-img1 h1{
+    font-size: 20px;
+}
+.fourth-info-img1 {
+    margin-top: 170px;
+    margin-left: -1400px;
+    
+}
+.fourth-info-img1 p{
+    text-align: -10px;
+    font-size: 18px;
+    font-family: 'Roboto Thin 100', sans-serif;
+    color: #828282;
+}
+.fourth-icon-house-img1{
+    margin-top: -112px;
+    margin-left: 10px;
+}
+.fourth-icon-location-img1{
+    margin-top: 2px;
+    margin-left: 11px;
+}
+.fourth-icon-currency-img1{
+    margin-top: 2px;
+    margin-left: 12px;
+}
+/*------------------------*/
+.fourth-header-img2 {
+    display: flex;
+    margin-top: -246px;
+    margin-left: 320px;   
+}
+.fourth-header-img2 h1{
+    font-size: 20px;
+}
+.fourth-info-img2 p{
+    text-align: -10px;
+    font-size: 18px;
+    margin-top: 170px;
+    margin-left: -585px;
+    font-family: 'Roboto Thin 100', sans-serif;
+    color: #828282;
+}
+.fourth-icon-house-img2{
+    margin-top: -112px;
+    margin-left: 330px;
+}
+.fourth-icon-location-img2{
+    margin-top: 2px;
+    margin-left: 331px;
+}
+.fourth-icon-currency-img2{
+    margin-top: 2px;
+    margin-left: 332px;
+}
+/*------------------------*/
+.fourth-header-img3 {
+    display: flex;
+    margin-top: -246px;
+    margin-left: 636px;   
+}
+.fourth-header-img3 h1{
+    font-size: 20px;
+}
+.fourth-info-img3 p{
+    text-align: -10px;
+    font-size: 18px;
+    margin-top: 170px;
+    margin-left: -269px;
+    font-family: 'Roboto Thin 100', sans-serif;
+    color: #828282;
+}
+.fourth-icon-house-img3{
+    margin-top: -112px;
+    margin-left: 646px;
+}
+.fourth-icon-location-img3{
+    margin-top: 2px;
+    margin-left: 647px;
+}
+.fourth-icon-currency-img3{
+    margin-top: 2px;
+    margin-left: 648px;
+}
+/*------------------------*/
+.fourth-img4{
+    margin-top: 50px;
+}
+.fourth-img5{
+    margin-top: -300px;
+    margin-left: 320px;
+}
+.fourth-img6{
+    margin-top: -300px;
+    margin-left: 636px;
+}
+/*------------------------*/
+.fourth-header-img4 {
+    display: flex;
+    margin-top: -106px;   
+}
+.fourth-header-img4 h1{
+    font-size: 20px;
+}
+.fourth-info-img4 {
+    margin-top: 170px;
+    margin-left: -1400px;
+    
+}
+.fourth-info-img4 p{
+    text-align: -10px;
+    font-size: 18px;
+    font-family: 'Roboto Thin 100', sans-serif;
+    color: #828282;
+}
+.fourth-icon-house-img4{
+    margin-top: -112px;
+    margin-left: 10px;
+}
+.fourth-icon-location-img4{
+    margin-top: 2px;
+    margin-left: 11px;
+}
+.fourth-icon-currency-img4{
+    margin-top: 2px;
+    margin-left: 12px;
+}
+/*------------------------*/
+.fourth-header-img5 {
+    display: flex;
+    margin-top: -246px;
+    margin-left: 320px;   
+}
+.fourth-header-img5 h1{
+    font-size: 20px;
+}
+.fourth-info-img5 p{
+    text-align: -10px;
+    font-size: 18px;
+    margin-top: 170px;
+    margin-left: -585px;
+    font-family: 'Roboto Thin 100', sans-serif;
+    color: #828282;
+}
+.fourth-icon-house-img5{
+    margin-top: -112px;
+    margin-left: 330px;
+}
+.fourth-icon-location-img5{
+    margin-top: 2px;
+    margin-left: 331px;
+}
+.fourth-icon-currency-img5{
+    margin-top: 2px;
+    margin-left: 332px;
+}
+/*------------------------*/
+.fourth-header-img6 {
+    display: flex;
+    margin-top: -246px;
+    margin-left: 636px;   
+}
+.fourth-header-img6 h1{
+    font-size: 20px;
+}
+.fourth-info-img6 p{
+    text-align: -10px;
+    font-size: 18px;
+    margin-top: 170px;
+    margin-left: -269px;
+    font-family: 'Roboto Thin 100', sans-serif;
+    color: #828282;
+}
+.fourth-icon-house-img6{
+    margin-top: -112px;
+    margin-left: 646px;
+}
+.fourth-icon-location-img6{
+    margin-top: 2px;
+    margin-left: 647px;
+}
+.fourth-icon-currency-img6{
+    margin-top: 2px;
+    margin-left: 648px;
+}
+/*------------------------*/
+.fourth-img7{
+    margin-top: 50px;
+}
+.fourth-img8{
+    margin-top: -300px;
+    margin-left: 320px;
+}
+.fourth-img9{
+    margin-top: -300px;
+    margin-left: 636px;
+}
+/*------------------------*/
+.fourth-header-img7 {
+    display: flex;
+    margin-top: -106px;   
+}
+.fourth-header-img7 h1{
+    font-size: 20px;
+}
+.fourth-info-img7 {
+    margin-top: 170px;
+    margin-left: -1400px;
+    
+}
+.fourth-info-img7 p{
+    text-align: -10px;
+    font-size: 18px;
+    font-family: 'Roboto Thin 100', sans-serif;
+    color: #828282;
+}
+.fourth-icon-house-img7{
+    margin-top: -112px;
+    margin-left: 10px;
+}
+.fourth-icon-location-img7{
+    margin-top: 2px;
+    margin-left: 11px;
+}
+.fourth-icon-currency-img7{
+    margin-top: 2px;
+    margin-left: 12px;
+}
+/*------------------------*/
+.fourth-header-img8 {
+    display: flex;
+    margin-top: -246px;
+    margin-left: 320px;   
+}
+.fourth-header-img8 h1{
+    font-size: 20px;
+}
+.fourth-info-img8 p{
+    text-align: -10px;
+    font-size: 18px;
+    margin-top: 170px;
+    margin-left: -585px;
+    font-family: 'Roboto Thin 100', sans-serif;
+    color: #828282;
+}
+.fourth-icon-house-img8{
+    margin-top: -112px;
+    margin-left: 330px;
+}
+.fourth-icon-location-img8{
+    margin-top: 2px;
+    margin-left: 331px;
+}
+.fourth-icon-currency-img8{
+    margin-top: 2px;
+    margin-left: 332px;
+}
+/*------------------------*/
+.fourth-header-img9 {
+    display: flex;
+    margin-top: -246px;
+    margin-left: 636px;   
+}
+.fourth-header-img9 h1{
+    font-size: 20px;
+}
+.fourth-info-img9 p{
+    text-align: -10px;
+    font-size: 18px;
+    margin-top: 170px;
+    margin-left: -269px;
+    font-family: 'Roboto Thin 100', sans-serif;
+    color: #828282;
+}
+.fourth-icon-house-img9{
+    margin-top: -112px;
+    margin-left: 646px;
+}
+.fourth-icon-location-img9{
+    margin-top: 2px;
+    margin-left: 647px;
+}
+.fourth-icon-currency-img9{
+    margin-top: 2px;
+    margin-left: 648px;
+}
+/*------------------------*/
+.four-button-left{
+    margin-top: -50px;
+    margin-left: -55px;
+    
+}
+.four-button-right{
+    margin-top: -40px;
+    margin-left: 125px;
+    
+}
+.fourt-bar-bottom p{
+    font-size: 18px;
+    letter-spacing: 22px;
+}
+.fourt-bar-bottom{
+    margin-top: 76px;
+    margin-left: 415px;
+}
+/*-----------Footer-------------*/
+.container-footer{
+    border: 1px solid #333333;
+    height: 618px;
+}
+.footer-logo-img{
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.footer-logo-name1{
+    margin-left: 55px;
+    margin-top: 10px;
+}
+.footer-logo-name1 p{
+    color: #F2F2F2;
+    font-size: 18px;
+}
+
+.footer-logo-name2{
+    margin-left: 105px;
+    margin-top: -43px;
+}
+.footer-logo-name2 p{
+    font-size: 18px;
+    font-family: 'Roboto Thin 100', sans-serif;
+    color: #F2F2F2;
+}
+/*-----------CompanySet-------------*/
+.company-set{
+    /*border: 1px solid red;*/
+    margin-top: -90px;
+    margin-left: 290px;
+}
+.company-set h1{
+    font-size: 24px;
+    color: #F2F2F2;
+}
+.company-list p{
+    font-size: 16px;
+    color: #FFFFFF ;
+    opacity: 0.7;
+    
+}
+/*-----------LocationSet-------------*/
+.location-set{
+    /*border: 1px solid red;*/
+    margin-top: -238px;
+    margin-left: 510px;
+}
+.location-set h1{
+    font-size: 24px;
+    color: #F2F2F2;
+}
+.location-list p{
+    font-size: 16px;
+    color: #FFFFFF ;
+    opacity: 0.7;
+    
+}
+/*-----------PopularSet-------------*/
+.popular-set{
+    /*border: 1px solid red;*/
+    margin-top: 40px;
+    margin-left: 510px;
+}
+.popular-set h1{
+    font-size: 24px;
+    color: #F2F2F2;
+}
+.popular-list p{
+    font-size: 16px;
+    color: #FFFFFF ;
+    opacity: 0.7;
+    
+}
+/*-----------OurSet-------------*/
+.our-set{
+    /*border: 1px solid red;*/
+    margin-top: -456px;
+    margin-left: 735px;
+}
+.our-set h1{
+    font-size: 24px;
+    color: #F2F2F2;
+}
+.our-list-head1 h1{
+    font-size: 16px;
+    color: #FFFFFF ;    
+}
+.our-list-head1 p{
+    font-size: 16px;
+    color: #FFFFFF ;
+    opacity: 0.7;    
+}
+.our-list-head2 h1{
+    font-size: 16px;
+    color: #FFFFFF ;    
+}
+.our-list-head2 p{
+    font-size: 16px;
+    color: #FFFFFF ;
+    opacity: 0.7;    
+}
+/*-----------FollowSet-------------*/
+.followUS-set{
+    /*border: 1px solid red;*/
+    margin-top: -286px;
+    margin-left: 960px;
+}
+.followUS-set h1{
+    font-size: 24px;
+    color: #FFFFFF ;   
+}
+.followUS-img {
+    letter-spacing: 10px;
+}
+/*-----------Be in know Set-------------*/
+.bein-set{
+    
+    margin-top: 60px;
+    margin-left: 960px;
+}
+.bein-set h1{
+    font-size: 24px;
+    color: #FFFFFF ;   
+}
+.bein-set p{
+    font-size: 16px;
+    color: #FFFFFF ;
+    opacity: 0.7;   
+}
+input[type = inpute-mailbar]{
+    background-color: #E0E0E0;
+    border: 0px;
+    width: 243px;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;   
+}
+.footer-btn1{
+    margin-top: -32px;
+    margin-left: 260px;
+}
+.signup{
+    text-decoration: none;
+    background-color: #E0E0E0;
+    color: #333333;
+    padding: .5rem 1.5rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Roboto Thin 100', sans-serif;
+}
+/*-----------BottomSet-------------*/
+.footerline{
+    margin-top: 200px;
+    margin-left: 60px;
+}
+.footer-bottom-text1 {
+    margin-top: 5px;
+    margin-left: 65px;
+}
+.footer-bottom-text2 {
+    margin-top: -27px;
+    margin-left: 1175px;
+}
+.footer-bottom-text1 h1{
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+.footer-bottom-text2 h1{
+    font-size: 16px;
+    color: #FFFFFF;
+
 }
 
