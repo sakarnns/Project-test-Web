@@ -26,10 +26,9 @@ header{
 
 .container{
     max-width: 944px;
-    height: 4700px;
     margin: 0 auto;
     line-height: 18px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 .center-img{
     background-position: center;
@@ -211,4 +210,215 @@ header{
     margin-top: 25px;   
 }
 /*-------section3---------*/
+
+.header-rd {
+    margin-top: 120px;
+    margin-left: 250px;
+}
+.header-rd h1{
+    font-size: 40px;
+}
+
+.info-rd p{
+    font-size: 18px;
+    font-family: 'Roboto Thin 100', sans-serif;
+}
+.img1-rd{
+    margin-top: 80px;
+    margin-left: 315px;
+}
+.img2-rd{
+    margin-top: -260px;
+    margin-left: 700px;
+}
+/*------Footer--------*/
+footer{
+    height: 618px;
+    background: url(/img/Rectanglefooter.svg) no-repeat;
+    background-position: center;
+    object-fit: cover
+}
+.footer{
+    margin-top: 250px;
+}
+.container-footer{
+    border: 1px solid #333333;
+    height: 618px;
+}
+.footer-logo-img{
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.footer-logo-name1{
+    margin-left: 55px;
+    margin-top: 10px;
+}
+.footer-logo-name1 p{
+    color: #F2F2F2;
+    font-size: 18px;
+}
+
+.footer-logo-name2{
+    margin-left: 105px;
+    margin-top: -43px;
+}
+.footer-logo-name2 p{
+    font-size: 18px;
+    font-family: 'Roboto Thin 100', sans-serif;
+    color: #F2F2F2;
+}
+/*-----------CompanySet-------------*/
+.company-set{
+    /*border: 1px solid red;*/
+    margin-top: -90px;
+    margin-left: 290px;
+}
+.company-set h1{
+    font-size: 24px;
+    color: #F2F2F2;
+}
+.company-list p{
+    font-size: 16px;
+    color: #FFFFFF ;
+    opacity: 0.7;
+    
+}
+/*-----------LocationSet-------------*/
+.location-set{
+    /*border: 1px solid red;*/
+    margin-top: -238px;
+    margin-left: 510px;
+}
+.location-set h1{
+    font-size: 24px;
+    color: #F2F2F2;
+}
+.location-list p{
+    font-size: 16px;
+    color: #FFFFFF ;
+    opacity: 0.7;
+    
+}
+/*-----------PopularSet-------------*/
+.popular-set{
+    /*border: 1px solid red;*/
+    margin-top: 40px;
+    margin-left: 510px;
+}
+.popular-set h1{
+    font-size: 24px;
+    color: #F2F2F2;
+}
+.popular-list p{
+    font-size: 16px;
+    color: #FFFFFF ;
+    opacity: 0.7;
+    
+}
+/*-----------OurSet-------------*/
+.our-set{
+    /*border: 1px solid red;*/
+    margin-top: -456px;
+    margin-left: 735px;
+}
+.our-set h1{
+    font-size: 24px;
+    color: #F2F2F2;
+}
+.our-list-head1 h1{
+    font-size: 16px;
+    color: #FFFFFF ;    
+}
+.our-list-head1 p{
+    font-size: 16px;
+    color: #FFFFFF ;
+    opacity: 0.7;    
+}
+.our-list-head2 h1{
+    font-size: 16px;
+    color: #FFFFFF ;    
+}
+.our-list-head2 p{
+    font-size: 16px;
+    color: #FFFFFF ;
+    opacity: 0.7;    
+}
+/*-----------FollowSet-------------*/
+.followUS-set{
+    /*border: 1px solid red;*/
+    margin-top: -286px;
+    margin-left: 960px;
+}
+.followUS-set h1{
+    font-size: 24px;
+    color: #FFFFFF ;   
+}
+.followUS-img {
+    letter-spacing: 10px;
+}
+/*-----------Be in know Set-------------*/
+.bein-set{
+    
+    margin-top: 60px;
+    margin-left: 960px;
+}
+.bein-set h1{
+    font-size: 24px;
+    color: #FFFFFF ;   
+}
+.bein-set p{
+    font-size: 16px;
+    color: #FFFFFF ;
+    opacity: 0.7;   
+}
+input[type = inpute-mailbar]{
+    background-color: #E0E0E0;
+    border: 0px;
+    width: 243px;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;   
+}
+.footer-btn1{
+    margin-top: -32px;
+    margin-left: 260px;
+}
+.signup{
+    text-decoration: none;
+    background-color: #E0E0E0;
+    color: #333333;
+    padding: .5rem 1.5rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Roboto Thin 100', sans-serif;
+}
+/*-----------BottomSet-------------*/
+.footerline{
+    margin-top: 200px;
+    margin-left: 60px;
+}
+.footer-bottom-text1 {
+    margin-top: 5px;
+    margin-left: 65px;
+}
+.footer-bottom-text2 {
+    margin-top: -27px;
+    margin-left: 1175px;
+}
+.footer-bottom-text1 h1{
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+.footer-bottom-text2 h1{
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
 
