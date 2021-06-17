@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height: 724px;
+    width: 1440px;
+    background: url(/img2/Rectangle1.svg) no-repeat;
+    background-position: center;
+    object-fit: cover;
+    
+}
+.top-img {
+    background-color: #828282;
+    height: 724px;
+    width: 1440px;
+    /*border: 1px solid #000000;*/
+    mix-blend-mode: multiply;
+   
+}
