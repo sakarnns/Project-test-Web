@@ -99,7 +99,7 @@ header{
 }
 /*-----------sec2----------------*/
 .section-second{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width: 942px;
     height: 1300px;
 }
