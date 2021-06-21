@@ -13,20 +13,11 @@
 }
 
 header{
-    height: 724px;
+    /*height: 724px;*/
     background: url(/img/Rectangle_1.svg) no-repeat;
     background-position: center;
     object-fit: cover;
     
-}
-footer{
-    height: 618px;
-    background: url(/img/Rectanglefooter.svg) no-repeat;
-    background-position: center;
-    object-fit: cover
-}
-.footer{
-    margin-top: 1635px;
 }
 
 .textcenter{
@@ -648,10 +639,19 @@ input[type=searchbar]{
     letter-spacing: 22px;
 }
 .fourt-bar-bottom{
-    margin-top: 76px;
+    margin-top: 100px;
     margin-left: 415px;
 }
 /*-----------Footer-------------*/
+footer{
+    height: 618px;
+    background: url(/img/Rectanglefooter.svg) no-repeat;
+    background-position: center;
+    object-fit: cover
+}
+.footer{
+    margin-top: 1635px;
+}
 .container-footer{
     border: 1px solid #333333;
     height: 618px;
