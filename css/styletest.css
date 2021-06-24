@@ -1,0 +1,156 @@
+/*-- Footer --*/
+.footer-area{
+	background-color: #333333;
+    padding: 60px 0 0;
+    margin-top: 100px;
+}
+.footer-content-area{
+    width: 100%;
+    display: flex;
+    padding: 40px ;
+    justify-content: space-between;   
+}
+.footer-company,
+.footer-locations,
+.footer-popularlinks,
+.footer-ouroffices,
+.footer-followus,
+.footer-beintheknow,
+h4,
+h1{
+    font-size: 24px;
+    color: #ffffff;
+} 
+.footer-ouroffices p{
+    font-size: 16px;
+    color: #bbbbbb;
+}
+.footer-company-more,
+.footer-locations-more,
+.footer-popularlinks-more,
+.footer-locations-more{
+    margin-left: -20px;
+    margin-top: 15px;
+}
+.footer-company-more,
+.footer-locations-more,
+.footer-popularlinks-more,
+ul,
+li,
+ a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+    list-style-type: none;
+	font-weight: 400;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.5s ease;
+}
+
+.footer-company-more,
+.footer-locations-more,
+.footer-popularlinks-more,
+ul,
+li,
+a:hover{
+    color: #ffffff;
+	padding-left: 8px;	
+}
+.social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: #333333;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+	color: #ffffff;
+	transition: all 0.3s ease;
+}
+.social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+#footer-email{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+#footer-email::placeholder{
+    color: #bbbbbb;
+}
+#footer-email-btn{
+    width: 150px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    font-weight: 200;
+    font-size: 16px;
+}
+#footer-email-btn:hover{
+    cursor: pointer;
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid white;
+    transition: all 0.5 ease-out;
+}
+.footer-content-below-line{
+    border: 1px solid #4B5B65;
+    margin-bottom: 40px;
+}
+.footer-below-line-term{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom-text1,
+.footer-bottom-text2,
+ h1{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.footer-bottom-text1{
+    margin-left: 40px;
+    align-items: center;
+}
+.footer-bottom-text2{
+    margin-right: 40px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
