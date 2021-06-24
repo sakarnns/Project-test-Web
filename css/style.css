@@ -773,6 +773,8 @@ a:hover{
 .footer-content-below-line{
     border: 1px solid #4B5B65;
     margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px ;
 }
 .footer-below-line-term{
     display: flex;
