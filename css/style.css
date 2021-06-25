@@ -11,7 +11,7 @@ body{
 .banner-area{
     width: 100%;
     height: 742px;
-    background: url(/img/Rectangle_1.svg) no-repeat;
+    background: url(...img/Rectangle_1.svg) no-repeat;
     background-size: cover;
 }
 .content-area{
